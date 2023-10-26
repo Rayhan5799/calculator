@@ -1,0 +1,47 @@
+/**************
+global css start
+******************/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+/******************
+global css end
+******************/
+.cl-section{
+    width: 100%;
+    height: 100vh;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cl-section .main-box{
+    width: 25%;
+    padding: 80px 30px 40px;
+    background: #fff;
+}
+.cl-section .main-box .display-part{
+    text-align: center;
+}
+.cl-section .main-box .display-part input{
+    width: 50%;
+    padding: 10px 0px;
+}
+.cl-section .main-box .all-btn{
+    text-align: center
+}
+.cl-section .main-box .btn{
+    width: 10%;
+    margin: 10px 5px;
+    background: rgba(128, 128, 128, 0.39);
+    font-weight: 500;
+    text-align: center;
+    border: rgba(128, 128, 128, 0.39);
+    border-radius: 0 !important;
+}
